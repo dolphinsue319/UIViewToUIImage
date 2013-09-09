@@ -9,6 +9,7 @@
 #import "UIView+UIViewToUIImage.h"
 #import <QuartzCore/QuartzCore.h>
 
+//
 @implementation UIView (UIViewToUIImage)
 - (UIImage *)viewToUIImage{
     UIGraphicsBeginImageContext(self.bounds.size);
